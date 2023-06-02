@@ -1,24 +1,24 @@
-html {
-  font-size: 16px;
-}
-
-a {
-  text-decoration: none;
-}
-
 @media (min-width: 375px) {
+  html {
+    font-size: 16px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
   .maincontainer {
     display: flex;
     flex-direction: column;
-    width: 92%;
-    height: 82%;
-    padding: 2%;
-    margin: 2%;
+    width: 99%;
+    height: 96%;
+    padding: 0.5%;
+    margin: 0.5%;
   }
 
   img {
-    max-width: 92%;
-    max-height: 92%;
+    max-width: 100%;
+    max-height: 80%;
     display: block;
   }
 
@@ -28,7 +28,7 @@ a {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: baseline;
-    width: 94%;
+    width: 98%;
     height: 10%;
   }
 
@@ -37,12 +37,13 @@ a {
     flex-direction: row;
     width: 7rem;
     height: 10%;
-    padding-left: 5rem;
+    padding-left: 1rem;
     justify-content: start;
   }
 
   .itemnavigation {
     display: flex;
+    margin-right: 2rem;
     flex-direction: row;
     width: 7rem;
     height: 10%;
@@ -56,8 +57,8 @@ a {
   .healdline {
     display: flex;
     flex-direction: column;
-    width: 83%;
-    height: 50%;
+    width: 97%;
+    height: 75%;
   }
 
   .headlinebody {
@@ -65,27 +66,31 @@ a {
     flex-direction: column;
     padding: 0;
     position: absolute;
-    width: 64%;
-    height: 50%;
-    left: 16.25rem;
+    width: 97%;
+    height: 75%;
+
+    /* left: 16.25rem; */
   }
 
   .introductionclass {
+    margin-top: 20%;
+    width: 89%;
     display: flex;
-    flex: 1;
     font-style: normal;
+    color: #172b4d;
     font-weight: 700;
-    font-size: 3em;
-    line-height: 1em;
+    font-size: 2.3em;
+    line-height: 1.5em;
     align-items: center;
-    letter-spacing: 0.023125rem;
-    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .second_primary_text {
     display: flex;
     flex: 1;
-    width: 74%;
+    width: 99%;
     height: 5em;
     font-style: normal;
     font-weight: 400;
@@ -96,8 +101,7 @@ a {
 
   .letconnect {
     display: flex;
-    flex: 1;
-    width: 7.3rem;
+    width: 99%;
     height: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -189,18 +193,26 @@ a {
 }
 
 @media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
   .maincontainer {
     display: flex;
     flex-direction: column;
-    width: 92%;
-    height: 82%;
-    padding: 2%;
-    margin: 2%;
+    width: 99%;
+    height: 96%;
+    padding: 0.5%;
+    margin: 0.5%;
   }
 
   img {
-    max-width: 92%;
-    max-height: 92%;
+    max-width: 100%;
+    max-height: 80%;
     display: block;
   }
 
@@ -210,7 +222,7 @@ a {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: baseline;
-    width: 94%;
+    width: 98%;
     height: 10%;
   }
 
@@ -219,12 +231,13 @@ a {
     flex-direction: row;
     width: 7rem;
     height: 10%;
-    padding-left: 5rem;
+    padding-left: 1rem;
     justify-content: start;
   }
 
   .itemnavigation {
     display: flex;
+    margin-right: 2rem;
     flex-direction: row;
     width: 7rem;
     height: 10%;
@@ -238,8 +251,8 @@ a {
   .healdline {
     display: flex;
     flex-direction: column;
-    width: 83%;
-    height: 50%;
+    width: 97%;
+    height: 75%;
   }
 
   .headlinebody {
@@ -247,27 +260,31 @@ a {
     flex-direction: column;
     padding: 0;
     position: absolute;
-    width: 64%;
-    height: 50%;
-    left: 16.25rem;
+    width: 97%;
+    height: 75%;
+
+    /* left: 16.25rem; */
   }
 
   .introductionclass {
+    margin-top: 20%;
+    width: 89%;
     display: flex;
-    flex: 1;
     font-style: normal;
+    color: #172b4d;
     font-weight: 700;
-    font-size: 3em;
-    line-height: 1em;
+    font-size: 2.3em;
+    line-height: 1.5em;
     align-items: center;
-    letter-spacing: 0.023125rem;
-    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .second_primary_text {
     display: flex;
     flex: 1;
-    width: 74%;
+    width: 99%;
     height: 5em;
     font-style: normal;
     font-weight: 400;
@@ -278,8 +295,7 @@ a {
 
   .letconnect {
     display: flex;
-    flex: 1;
-    width: 7.3rem;
+    width: 99%;
     height: 1rem;
     font-style: normal;
     font-weight: 500;
