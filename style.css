@@ -199,4 +199,82 @@ body {
   .media li {
     flex: 1;
   }
+  .mywork {
+    height: auto;
+    display: grid;
+    grid-template: repeat(3, 1fr) / 32.7rem;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 8.8rem;
+    padding: 1.6rem 1.6rem 0 1.6rem;
+    margin-top: 11.4rem;
+  }
+  .myproject {
+    border: 0.1rem solid #dfe1e6;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem 0;
+    padding: 1.6rem 1.6rem 2.8rem 1.6rem;
+    border-radius: 1.6rem;
+  }
+  .pheader {
+    flex-basis: 29.5rem;
+  }
+  .ptitle {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    color: #172b4d;
+    margin: 1.2rem 0 0 0;
+  }
+  .p-details {
+    flex-basis: 29.5rem;
+  }
+
+  .p-details ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 0 1.2rem;
+    margin: 0;
+    width: 85%;
+    justify-content: center;
+  }
+
+  .p-details ul li {
+    text-align: center;
+  }
+
+  .socialmedia ul li {
+    flex: 1;
+  }
+
+  .p-details ul li:first-child {
+    font-size: 1.3rem;
+    font-style: normal;
+    line-height: 1.6rem;
+    color: #344563;
+    font-weight: 600;
+    flex: 1;
+  }
+
+  .p-details ul li:nth-child(3) {
+    font-size: 1.3rem;
+    font-style: normal;
+    line-height: 1.6rem;
+    color: #7a869a;
+    font-weight: 600;
+    flex: 3;
+  }
+
+  .p-details ul li:nth-child(5) {
+    font-size: 1.3rem;
+    font-style: normal;
+    line-height: 1.6rem;
+    color: #7a869a;
+    font-weight: 600;
+    flex: 1;
+  }
+
 }
