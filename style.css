@@ -1,3 +1,8 @@
+body {
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
 @media (min-width: 375px) {
   html {
     font-size: 16px;
@@ -10,7 +15,7 @@
   .maincontainer {
     display: flex;
     flex-direction: column;
-    width: 99%;
+    width: 100%;
     height: 96%;
     padding: 0.5%;
     margin: 0.5%;
@@ -57,7 +62,7 @@
   .healdline {
     display: flex;
     flex-direction: column;
-    width: 97%;
+    width: 100%;
     height: 75%;
   }
 
@@ -66,21 +71,21 @@
     flex-direction: column;
     padding: 0;
     position: absolute;
-    width: 97%;
+    width: 100%;
     height: 75%;
 
     /* left: 16.25rem; */
   }
 
   .introductionclass {
-    margin-top: 20%;
-    width: 89%;
+    margin-top: 13%;
+    width: 100%;
     display: flex;
     font-style: normal;
     color: #172b4d;
     font-weight: 700;
-    font-size: 2.3em;
-    line-height: 1.5em;
+    font-size: 1.4em;
+    line-height: 2em;
     align-items: center;
     flex: none;
     order: 0;
@@ -90,31 +95,34 @@
   .second_primary_text {
     display: flex;
     flex: 1;
-    width: 99%;
+    width: 96%;
     height: 5em;
     font-style: normal;
     font-weight: 400;
     font-size: 1.2em;
-    line-height: 1em;
+    line-height: 1.5em;
     color: #344563;
   }
 
   .letconnect {
+    margin-top: 30%;
     display: flex;
     width: 99%;
     height: 1rem;
     font-style: normal;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: 'Poppins';
     color: #7f8cff;
   }
 
   .socialmedia {
     display: flex;
     flex: 1;
-    width: 10.6rem;
-    height: 1rem;
+    width: 13.6rem;
+    height: 2rem;
+    flex-grow: 2;
   }
 
   .enabled {
@@ -180,205 +188,11 @@
   }
 
   .media {
-    flex: 0 17.017rem;
+    display: flex;
     list-style: none;
-    padding: 0;
-    height: 1rem;
-    display: flex;
-  }
-
-  .media li {
-    flex: 1;
-  }
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .maincontainer {
-    display: flex;
-    flex-direction: column;
-    width: 99%;
-    height: 96%;
-    padding: 0.5%;
-    margin: 0.5%;
-  }
-
-  img {
-    max-width: 100%;
-    max-height: 80%;
-    display: block;
-  }
-
-  .mainmenu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 98%;
-    height: 10%;
-  }
-
-  .LogoPlaceholder {
-    display: flex;
-    flex-direction: row;
-    width: 7rem;
-    height: 10%;
-    padding-left: 1rem;
-    justify-content: start;
-  }
-
-  .itemnavigation {
-    display: flex;
-    margin-right: 2rem;
-    flex-direction: row;
-    width: 7rem;
-    height: 10%;
-    justify-content: end;
-  }
-
-  .navitems {
-    padding: 0.3rem;
-  }
-
-  .healdline {
-    display: flex;
-    flex-direction: column;
-    width: 97%;
-    height: 75%;
-  }
-
-  .headlinebody {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    position: absolute;
-    width: 97%;
-    height: 75%;
-
-    /* left: 16.25rem; */
-  }
-
-  .introductionclass {
-    margin-top: 20%;
-    width: 89%;
-    display: flex;
-    font-style: normal;
-    color: #172b4d;
-    font-weight: 700;
-    font-size: 2.3em;
-    line-height: 1.5em;
-    align-items: center;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  .second_primary_text {
-    display: flex;
-    flex: 1;
-    width: 99%;
-    height: 5em;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.2em;
-    line-height: 1em;
-    color: #344563;
-  }
-
-  .letconnect {
-    display: flex;
-    width: 99%;
-    height: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1rem;
-    color: #7f8cff;
-  }
-
-  .socialmedia {
-    display: flex;
-    flex: 1;
-    width: 10.6rem;
-    height: 1rem;
-  }
-
-  .enabled {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1rem;
-    gap: 1rem;
-    position: absolute;
-    width: 5.18rem;
-    height: 3rem;
-    left: 6.25rem;
-    background: #fff;
-    border: 0.625rem solid #7f8cff;
-    border-radius: 0.5rem;
-  }
-
-  .Hover {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1rem;
-    gap: 1rem;
-    position: absolute;
-    width: 5.1rem;
-    height: 3rem;
-    left: 15.75rem;
-    background: #6070ff;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-    border-radius: 0.75rem;
-  }
-
-  .Pressed {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1rem;
-    gap: 1rem;
-    position: absolute;
-    width: 5.18rem;
-    height: 3rem;
-    left: 25rem;
-    background: #2230d2;
-    border-radius: 1rem;
-  }
-
-  .disabled {
-    width: 3.68rem;
-    height: 2rem;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #5e6c84;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  .media {
-    flex: 0 17.017rem;
-    list-style: none;
-    padding: 0;
-    height: 1rem;
-    display: flex;
+    padding-left: 0;
+    width: 2.8rem;
+    height: 2.2rem;
   }
 
   .media li {
