@@ -31,6 +31,9 @@
 # 📖 Samuel software Engineer portfolio<a name="about-project"></a>
 
 >Wellcome to my portfolio
+>I have added about my self
+>"Works" section
+>all task i have done
 
 **Samuel is a software Engineer** is a...
 
