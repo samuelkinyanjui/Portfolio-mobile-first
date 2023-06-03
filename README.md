@@ -127,7 +127,7 @@ Use amazon or inhouse hosting for deployment
 
 - GitHub: [@githubhandle](https://github.com/samuelkinyanjui/)
 - Twitter: [@twitterhandle](https://twitter.com/sax80kinya)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/samuelkinta)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/samuel-k-8277a219/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
