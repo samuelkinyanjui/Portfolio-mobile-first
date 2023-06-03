@@ -33,7 +33,6 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: baseline;
-    width: 97%;
     height: 1rem;
   }
 
@@ -62,7 +61,6 @@ body {
   .healdline {
     display: flex;
     flex-direction: column;
-    width: 98%;
   }
 
   .headlinebody {
@@ -70,14 +68,13 @@ body {
     flex-direction: column;
     padding: 0;
     position: absolute;
-    width: 98%;
+
 
     /* left: 16.25rem; */
   }
 
   .introductionclass {
     margin-top: 2rem;
-    width: 98%;
     display: flex;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -95,7 +92,6 @@ body {
     margin-top: 0.1rem;
     display: flex;
     flex: 1;
-    width: 96%;
     height: 5em;
     font-style: normal;
     font-weight: 400;
@@ -106,8 +102,8 @@ body {
 
   .letconnect {
     margin-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
-    width: 99%;
     height: 1rem;
     font-style: normal;
     font-weight: 600;
@@ -209,25 +205,90 @@ body {
   }
 
   .myproject {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     border: 0.1rem solid #dfe1e6;
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.8rem 0;
-    padding: 1.6rem 1.6rem 2.8rem 1.6rem;
     border-radius: 1.6rem;
   }
 
   .pheader {
-    flex-basis: 29.5rem;
+    display: flex;
   }
 
   .ptitle {
-    font-weight: 700;
-    font-size: 3.2rem;
-    line-height: 4.4rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
     color: #172b4d;
-    margin: 1.2rem 0 0 0;
+  }
+
+  .details {
+    margin-top: 0.01rem;
+    display: flex;
+    margin-left: 0.1rem;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .details ul {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5rem;
+  }
+
+  .details ul li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .everyday {
+    margin-top: 05rem;
+  }
+
+  .conpoy {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 5rem;
+    height: 3rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #344563;
+  }
+
+  .backeddev {
+    width: 8rem;
+    height: 1rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #7a869a;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .text2015 {
+    width: 3rem;
+    height: 1rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #7a869a;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .p-details {
@@ -239,9 +300,7 @@ body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
-    width: 90%;
     justify-content: center;
-    margin-right: 20%;
   }
 
   .p-details ul li {
@@ -283,16 +342,17 @@ body {
   }
 
   .button {
-    margin-top: 10%;
-    margin-right: 35%;
-    margin-left: 10%;
-    width: 10rem;
-    height: 2rem;
+    margin-top: 8%;
+    margin-right: 40%;
+    margin-left: 4%;
+    margin-bottom: 6%;
+    width: 7rem;
+    height: 1rem;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1.1rem;
+    line-height: 1rem;
     display: flex;
     align-items: center;
     text-align: center;
@@ -303,7 +363,7 @@ body {
     flex-grow: 0;
     border: 0.1rem solid #396df2;
     border-radius: 0.8rem;
-    padding: 1.2rem;
+    padding: 1rem;
   }
 
   .button:hover {
@@ -358,15 +418,39 @@ body {
   }
 
   .titletext {
-    width: 327px;
-    height: 35px;
+    width: 23rem;
+    height: 2.1rem;
 
     /* Header / 2 */
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+
+    /* or 130% */
+    display: flex;
+    align-items: center;
+
+    /* Neutrals/N800 */
+    color: #172b4d;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .titletext2 {
+    width: 23rem;
+    height: 2.1rem;
+
+    /* Header / 2 */
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
 
     /* or 130% */
     display: flex;
@@ -392,12 +476,12 @@ body {
 
   .projectstack li a {
     font-style: normal;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    font-size: 1rem;
+    line-height: 1rem;
     color: #6070ff;
     background-color: #ebebff;
-    padding: 0.4rem 1.2rem;
-    border-radius: 0.8rem;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
   }
 
   .projectstack a:hover {
@@ -416,12 +500,13 @@ body {
     margin: 0;
   }
 
-  .about-me .skills ul li {
+  .skilssitem {
+    width: 6rem;
     flex-basis: 7.2rem;
     border-bottom: 0.1rem solid #dfe1e6;
     color: #000;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 7.2rem;
   }
 }
