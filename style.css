@@ -109,24 +109,24 @@ body {
   }
 
   .letconnect {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     display: flex;
     height: 1rem;
     font-style: normal;
     font-weight: 600;
     font-size: 1.1rem;
-    line-height: 2rem;
+    line-height: 1rem;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     color: #7f8cff;
   }
 
   .socialmedia {
+    margin-top: 1rem;
     display: flex;
     flex: 1;
     width: 13.6rem;
-    height: 1.2rem;
-    flex-grow: 2;
+    height: 1rem;   
   }
 
   .enabled {
@@ -228,9 +228,20 @@ body {
 
   .ptitle {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 2.2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;    
+    width: 15rem;
+    height: 1rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
     color: #172b4d;
+    
+   
   }
 
   .details {
@@ -354,7 +365,7 @@ body {
     margin-right: 40%;
     margin-left: 4%;
     margin-bottom: 6%;
-    width: 7rem;
+    width: 8rem;
     height: 1rem;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -391,12 +402,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    gap: 1.2rem 0;
-    margin: 11.4rem 0 0 0;
+    gap: 1.2rem 0;    
     padding: 0 2.4rem;
     border-top-right-radius: 15%;
     margin-right: 35%;
     margin-left: 2%;
+    margin-top: 1rem;
   }
 
   .about-me .title {
@@ -450,6 +461,7 @@ body {
   }
 
   .titletext2 {
+    margin-top: 1rem;
     width: 23rem;
     height: 1rem;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
