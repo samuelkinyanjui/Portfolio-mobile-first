@@ -32,10 +32,6 @@ a {
   text-decoration: none;
 }
 
- {
-  text-decoration: none;
-}
-
 .maincontainer {
   display: flex;
   flex-direction: column;
@@ -514,6 +510,7 @@ ul {
   margin: 20px 0 12px;
   color: #344563;
 }
+
 .projectstack li a {
   font-style: normal;
   font-size: 1rem;
@@ -1315,20 +1312,6 @@ summary::-webkit-details-marker {
   color: #fff;
 }
 
-.about-me {
-  background-color: #fff;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  gap: 1.2rem 0;
-  padding: 0 2.4rem;
-  border-top-right-radius: 15%;
-  margin-right: 35%;
-  margin-left: 2%;
-  margin-top: 1rem;
-}
-
 .about-me .title {
   font-weight: bold;
   font-size: 4rem;
@@ -1396,22 +1379,8 @@ summary::-webkit-details-marker {
   gap: 0 0.8rem;
 }
 
-
-
-.projectstack a:hover {
-  text-decoration: underline;
-}
-
 .about-me .skills {
   flex-basis: 100%;
-}
-
-.about-me .skills ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
 }
 
 .skilssitem {
@@ -1701,6 +1670,18 @@ summary::-webkit-details-marker {
     font-weight: normal;
     line-height: 2.4rem;
     flex-basis: 32.7rem;
+    margin: 0;
+  }
+
+  .projectstack a:hover {
+    text-decoration: underline;
+  }
+
+  .about-me .skills ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
     margin: 0;
   }
 
