@@ -15,7 +15,7 @@ body {
   .maincontainer {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 98%;
     height: 96%;
     padding: 0.5%;
     margin: 0.5%;
@@ -33,7 +33,7 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: baseline;
-    width: 98%;
+    width: 97%;
     height: 1rem;
   }
 
@@ -62,7 +62,7 @@ body {
   .healdline {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 98%;
   }
 
   .headlinebody {
@@ -70,14 +70,14 @@ body {
     flex-direction: column;
     padding: 0;
     position: absolute;
-    width: 100%;
+    width: 98%;
 
     /* left: 16.25rem; */
   }
 
   .introductionclass {
     margin-top: 2rem;
-    width: 100%;
+    width: 98%;
     display: flex;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
