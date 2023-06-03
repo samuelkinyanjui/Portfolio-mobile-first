@@ -70,6 +70,17 @@ body {
     position: absolute;
   }
 
+  .aboutmeh3 {
+    width: 30rem;
+    height: 9.18rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #344563;
+  }
+
   .introductionclass {
     margin-top: 2rem;
     display: flex;
@@ -440,23 +451,15 @@ body {
 
   .titletext2 {
     width: 23rem;
-    height: 2.1rem;
-
-    /* Header / 2 */
+    height: 1rem;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 3.25rem;
-
-    /* or 130% */
+    font-size: 1.2rem;
+    line-height: 2rem;
     display: flex;
     align-items: center;
-
-    /* Neutrals/N800 */
     color: #172b4d;
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -499,6 +502,16 @@ body {
 
   .skilssitem {
     width: 6rem;
+    flex-basis: 7.2rem;
+    border-bottom: 0.1rem solid #dfe1e6;
+    color: #000;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 7.2rem;
+  }
+
+  .widepic {
+    width: 15rem;
     flex-basis: 7.2rem;
     border-bottom: 0.1rem solid #dfe1e6;
     color: #000;
