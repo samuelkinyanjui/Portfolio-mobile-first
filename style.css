@@ -231,10 +231,8 @@ body {
   }
 
   .p-details {
-   
     display: flex;
     flex-direction: row;
-    
   }
 
   .p-details ul {
@@ -247,11 +245,10 @@ body {
   }
 
   .p-details ul li {
-    text-align: center;   
+    text-align: center;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 1rem;
-    
   }
 
   .socialmedia ul li {
