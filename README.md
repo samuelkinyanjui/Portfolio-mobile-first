@@ -174,7 +174,7 @@ I would like to thank...all microverse student
 
 
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ  <a name="faq"></a>
 
 
 
