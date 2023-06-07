@@ -356,26 +356,14 @@ h4 {
   width: 3.025rem;
   height: 1rem;
   border-color: #fff;
-
-  /* Button / Small */
-
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
   line-height: 1rem;
-
-  /* identical to box height, or 133% */
   margin-left: 1rem;
   letter-spacing: 0.03em;
-
-  /* Primary/B400 */
-
   color: #6070ff;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -622,25 +610,12 @@ h4 {
 .h9 {
   width: 20.4375rem;
   height: 9.18rem;
-
-  /* Body / 2 */
-
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
-
-  /* or 150% */
-
-
-  /* Neutrals/N600 */
-
   color: #344563;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
