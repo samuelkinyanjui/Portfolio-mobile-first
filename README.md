@@ -1,195 +1,64 @@
-<a name="readme-top"></a>  
+# My Portfolio
 
-  <h3><b>Samuel portfolio</b></h3>
+This project contains My Portfolio for responsive mobile and desktop version.It shows you everything about me and the services I can provide.
 
+## 🚀 Live Demo
 
+[Here](https://alusine-portfolio.netlify.app/)
 
+## Built With
 
-# 📗 Table of Contents
+- HTML and CSS
+- VSCODE
+- GIT
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features) 
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+## Getting Started
 
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 Samuel software Engineer portfolio<a name="about-project"></a>
-
->Wellcome to my portfolio
-
-**Samuel is a software Engineer** is a...
-
-## 🛠 Built With <a name="built-with"></a>
-HTML and css and tested with linters to eliminate the software coding Errors
-### Tech Stack <a name="tech-stack"></a>
-
-> It will run local webserver or any webhosting cpanel 
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://mozilla.com/">Any web broweser/mostly mozila/firefox</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Php and Html server like apache/wamp</a></li>
-  </ul>
-</details>
-
-
-### Key Features <a name="key-features"></a>
-
-- **This is my well documented portfolio**
-- **Bult with pure HTML**
-- **Bult using CSS**
-** tested with linters **
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-> Download the application to your local computer.
-> cd into it.
->npm update
->Run style linter  "**/*.{css/scss to fix any coding issues
->Add custom code 
-
+To get a local copy up and running follow these simple example steps.
+Locate the project folder in the Repository.
+Click on the code button and dowload a zip file for the project locally.
+Locate the index.html file and double click it to view webpage.
 
 ### Prerequisites
->Node Js
->code editor 
+Node.js, stylelint, browser for displaying it's content.
+install node package manager(npm): npm helps to install stylelint.
 
 
 ### Setup
-
-Clone this repository to your desired folder:
-
-
-  cd my-folder
-  git clone https://github.com/samuelkinyanjui/Portfolio-mobile-first
-
-
-### Install
-
-Install this project with:
-copy the folder to Wamp web folder
+Download and install browser.
 
 ### Usage
-
-Launch your server
-
-
-
-### Run tests
-
-open the home/index file
+Navigate through the web page to find the information you need. Use the links in the pages to move to different sections.
 
 
 ### Deployment
-
-You can deploy this project using:
-
-Use amazon or inhouse hosting for deployment
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  Project reside in this Repo and is hosted on Github pages. You can clone the repo or download the files manually to your local machine.
+  below is the online link for this website:
 
 
+## Authors
 
-## 👥 Authors <a name="authors"></a
-> Microverse,Samuel
+👤 **Alusine Jalloh**
 
-👤
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/samuelkinyanjui/)
-- Twitter: [@twitterhandle](https://twitter.com/sax80kinya)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/samuelkinta)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
->I will add all projects ihave done in the past
->I will include the contact forms
->I will improve on the design
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-Write an email to sax80kinya@gmail.com
-
-## 🤝 Contributing <a name="contributing"></a>
+- GitHub: [@Alusp](https://github.com/Alusp)
+- LinkedIn: [@alusine-jalloh-873951209](linkedin.com/in/alusine-jalloh-873951209)
+ 
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Show your support
 
-<!-- SUPPORT -->
+Give a ⭐️ if you like this project!
 
-## ⭐️ Show your support <a name="support"></a>
+## Acknowledgments
 
-Use the project to buld your own website
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📝 License
 
-
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-
-I would like to thank...all microverse student
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-
-
-What is the main tool used to make this application?
-
-  HTML
-
--How can we use the template?
-you just clone it
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-.. include:: LICENSE
-   :literal:
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](./MIT.md) licensed.
