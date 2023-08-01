@@ -35,10 +35,12 @@
 **Samuel is a software Engineer** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
-HTML and css and tested with linters to eliminate the software coding Errors
+This is my portfolio project.
+The website is mainly designed to showcase my expertise in use of HTML, Javascript ES6, and CSS 
+The website is  tested with linters to eliminate the software coding Errors
 ### Tech Stack <a name="tech-stack"></a>
 
-> It will run local webserver or any webhosting cpanel 
+> It will run on local webserver or any web hosting cpanel 
 
 <details>
   <summary>Client</summary>
@@ -57,9 +59,12 @@ HTML and css and tested with linters to eliminate the software coding Errors
 
 ### Key Features <a name="key-features"></a>
 
-- **This is my well documented portfolio**
+- **This is my well-documented portfolio**
 - **Bult with pure HTML**
 - **Bult using CSS**
+- **Javascript **
+- 
+- 
 ** tested with linters **
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
